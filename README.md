@@ -72,9 +72,9 @@ http://www.hostbuf.com/downloads/finalshell_install.pkg
 
         iptables -I INPUT -p tcp --dport 80 -j ACCEPT
         
-### 放行443端口，把80改成443
+### 放行444端口，把80改成444
         
-        iptables -I INPUT -p tcp --dport 443 -j ACCEPT
+        iptables -I INPUT -p tcp --dport 444 -j ACCEPT
 
 
 查看已开放的端口
