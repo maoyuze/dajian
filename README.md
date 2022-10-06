@@ -99,3 +99,18 @@ http://www.hostbuf.com/downloads/finalshell_install.pkg
 如何遇到打不开的情况，可能是端口没有放行，用【方法1】键入停止防火墙代码，或键入开放端口代码。
 
 - 3、V2ray软件：设置——参数设置——V2rayN设置——Core类型改为Xray_Core
+
+```
+x-ui              - 显示管理菜单 (功能更多)
+x-ui start        - 启动 x-ui 面板
+x-ui stop         - 停止 x-ui 面板
+x-ui restart      - 重启 x-ui 面板
+x-ui status       - 查看 x-ui 状态
+x-ui enable       - 设置 x-ui 开机自启
+x-ui disable      - 取消 x-ui 开机自启
+x-ui log          - 查看 x-ui 日志
+x-ui v2-ui        - 迁移本机器的 v2-ui 账号数据至 x-ui
+x-ui update       - 更新 x-ui 面板
+x-ui install      - 安装 x-ui 面板
+x-ui uninstall    - 卸载 x-ui 面板
+```
